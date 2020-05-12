@@ -1,4 +1,6 @@
 def isPrime(N):
+    if N == 1:
+        return False
     a=2
     k=N//2
     while k>=a:
